@@ -1,0 +1,33 @@
+
+{% extends "base.html" %}
+
+{%block start%}
+    <h1>hey this is the login page</h1>
+      
+      <table border="1" style="background-color:black; color: #fff;width: 50%;">
+        <tr>
+            <th>S.no</th>
+            <th>name</th>
+            <th>age</th>
+            <th>can vote</th>
+        </tr>
+        {% for people in peoples%}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{people.name}}</td>
+            <td>{{people.age}}</td>
+            <td {% if people.age > 25 %} style="background-color: red;" {% endif%}>{% if people.age <= 25 %}
+                👍
+                {% else %}
+                👎
+                {% endif%}
+            </td>
+
+        </tr>
+        {% endfor %}
+      </table>
+      <a href="/about/">
+        about</a> |
+        <a href="/contact/">
+            contact</a>
+{% endblock%}

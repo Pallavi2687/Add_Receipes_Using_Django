@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* General Container Styling */
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Form Styling */
+form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form Controls Styling */
+form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+.btn-success,
+.btn-primary,
+.btn-danger {
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 5px 10px rgba(33, 136, 56, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 10px rgba(0, 86, 179, 0.3);
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    box-shadow: 0 5px 10px rgba(200, 35, 51, 0.3);
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table th,
+.table td {
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Table Image Styling */
+.table td img {
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    height: 100px;
+}
+
+/* Action Buttons Styling */
+/* Table Action Buttons Styling */
+.table td a {
+    display: inline-block; /* Ensure buttons are inline */
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+.table td a.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.table td a.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Ensuring that table cells with buttons have proper spacing */
+.table td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+/* Ensure buttons don't collapse */
+.table td a {
+    margin: 5px 0; /* Adds space between the buttons */
+}
+
+
+/* Search Box */
+form .form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+form input[type="text"] {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+
+    .table td img {
+        height: 70px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .table td a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+      </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+   {% block start %}
+  
+  
+  {% endblock start %}
+
+
+
+</body>
+</html>
