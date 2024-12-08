@@ -28,5 +28,5 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/receipe.git
+git clone https://github.com/vikasgup895/receipe.git
 cd receipe
