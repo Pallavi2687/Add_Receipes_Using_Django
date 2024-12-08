@@ -29,12 +29,6 @@ urlpatterns = [
     path("delete-receipe/<id>/", delete_receipe, name="delete_receipe"),
     path("update-receipe/<id>/", update_receipe, name="update_receipe"),
 
-    path('about/', about , name="about" ),
-    path('contact/', contact , name="contact" ),
-
-    path('success_page/' , success_page , name="sucesspage"),
-
-
     path('admin/', admin.site.urls),
 ]
 
