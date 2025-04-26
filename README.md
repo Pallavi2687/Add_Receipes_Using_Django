@@ -28,5 +28,5 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vikasgup895/receipe.git
+git clone https://github.com/Pallavi2687/Add_Receipes_Using_Django
 cd receipe
