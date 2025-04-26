@@ -1,9 +1,10 @@
-# Add Recipe Web App - Django
+# Add Recipe website - Django
 
 ## Overview
 This is a web application built using Django, allowing users to add, view, and manage recipes. The app enables users to input recipe names, descriptions, and images, and displays them in a table. The application also includes search functionality to filter recipes.
 
 ## Features
+-Add receipe only when you logged in.
 - Add a new recipe with a name, description, and image.
 - View all recipes in a table format.
 - Update and delete recipes.
