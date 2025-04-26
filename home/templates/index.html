@@ -10,7 +10,7 @@
 
   .add-receipe-container {
     min-height: 100vh;
-    background: url('https://png.pngtree.com/thumb_back/fw800/background/20230425/pngtree-chef-preparing-a-dish-in-a-restaurant-image_2516818.jpg') no-repeat center center/cover;
+    background: url('https://sherohomefood.in/wp-content/uploads/2021/04/SHF_home-slide-11.jpg') no-repeat center center/cover;
     background-size:cover;
     background-position:center;
     display: flex;
@@ -63,7 +63,9 @@
   <div class="content-box">
     <h1>Add a New Recipe</h1>
     <p>Looking to share your delicious recipe with the world? Click the button below to get started!</p>
-    <a href="/receipes/">Click Here to Add a Recipe</a>
+    {% comment %} <a href="/receipes/">Click Here to Add a Recipe</a> {% endcomment %}
+    <a href="{% url 'receipes' %}">Click Here to Add a Recipe</a>
+
   </div>
 </div>
 {% endblock %}
